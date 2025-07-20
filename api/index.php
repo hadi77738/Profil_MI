@@ -3,7 +3,7 @@
     $page_title = "Beranda"; 
 
     // Memanggil file header
-    include 'templates/header.php'; 
+    include '../templates/header.php'; 
 ?>
 
 <!-- === BAGIAN HERO === -->
@@ -67,5 +67,5 @@
 
 <?php 
     // Memanggil file footer
-    include 'templates/footer.php'; 
+    include '../templates/footer.php'; 
 ?>

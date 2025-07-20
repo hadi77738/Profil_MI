@@ -1,6 +1,6 @@
 <?php 
     $page_title = "Galeri"; 
-    include 'templates/header.php'; 
+    include '../templates/header.php'; 
 ?>
 
 <!-- === BAGIAN HEADER HALAMAN === -->
@@ -77,5 +77,5 @@
 <?php 
     // Kita akan menambahkan link ke library Lightbox2 di footer untuk efek popup gambar
     // Tapi untuk sekarang, kita panggil footer standar dulu.
-    include 'templates/footer.php'; 
+    include '../templates/footer.php'; 
 ?>

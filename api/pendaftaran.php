@@ -1,6 +1,6 @@
 <?php 
     $page_title = "Pendaftaran"; 
-    include 'templates/header.php'; 
+    include '../templates/header.php'; 
 ?>
 
 <!-- === BAGIAN HEADER HALAMAN === -->
@@ -92,5 +92,5 @@
 </section>
 
 <?php 
-    include 'templates/footer.php'; 
+    include '../templates/footer.php'; 
 ?>

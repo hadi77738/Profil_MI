@@ -1,6 +1,6 @@
 <?php 
     $page_title = "Tentang Kami"; 
-    include 'templates/header.php'; 
+    include '../templates/header.php'; 
 ?>
 
 <!-- === BAGIAN HEADER HALAMAN === -->
@@ -68,5 +68,5 @@
 </section>
 
 <?php 
-    include 'templates/footer.php'; 
+    include '../templates/footer.php'; 
 ?>
