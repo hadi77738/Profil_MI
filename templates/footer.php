@@ -1,6 +1,10 @@
 <?php
     if (!isset($base_url)) {
-        $base_url = '/profil_mi/';
+        if (stripos($_SERVER['REQUEST_URI'], '/profil_mi') !== false) {
+            $base_url = '/profil_mi/';
+        } else {
+            $base_url = '/';
+        }
     }
 ?>
 </main>
